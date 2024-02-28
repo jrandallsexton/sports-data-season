@@ -8,12 +8,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{82FE4557-DA7A-423F-B7B3-43F11747D961}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A04FF831-E6AA-4EA4-AA6E-4115BAB96C79}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Season", "src\SportsData.Season\SportsData.Season.csproj", "{CAC66A29-AC8D-432B-8EC5-C59B9A43C044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Season", "src\SportsData.Season\SportsData.Season.csproj", "{CAC66A29-AC8D-432B-8EC5-C59B9A43C044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Season.Tests.Unit", "test\SportsData.Season.Tests.Unit\SportsData.Season.Tests.Unit.csproj", "{D9D5D500-22DE-4595-9BD7-19CB39C6EE1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Season.Tests.Unit", "test\SportsData.Season.Tests.Unit\SportsData.Season.Tests.Unit.csproj", "{D9D5D500-22DE-4595-9BD7-19CB39C6EE1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Season.Tests.Integration", "test\SportsData.Season.Tests.Integration\SportsData.Season.Tests.Integration.csproj", "{2C40E38C-4903-4F99-A36C-14675AA63D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Season.Tests.Integration", "test\SportsData.Season.Tests.Integration\SportsData.Season.Tests.Integration.csproj", "{2C40E38C-4903-4F99-A36C-14675AA63D98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
